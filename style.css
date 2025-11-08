@@ -5,18 +5,20 @@
 }
 header{
   position: fixed;
-  height: 9vh;
-  display: block;
+  height: 15vh;
   width: 100%;
   background-color: #fff;
+
+  display: flex;               /* центрируем содержимое */
+  align-items: center;
+  justify-content: center;
 }
-.top{
-  padding-top: 20px;
-  text-align: center;
-}
+
 .satangLogo{
-  width: 250px;
-  max-height: 10vh;
+  width: 250px;                
+  height: auto;
+  max-height: 100%;           
+  object-fit: contain;
 }
 .map {
 text-align: center;
