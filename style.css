@@ -1,0 +1,23 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header{
+  position: fixed;
+  height: 14vh;
+  display: block;
+  width: 100%;
+  background-color: #fff;
+}
+.top{
+  padding-top: 20px;
+  text-align: center;
+}
+.satangLogo{
+  width: 250px;
+}
+.map {
+text-align: center;
+height: 98vh;
+}
